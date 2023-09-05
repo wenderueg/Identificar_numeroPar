@@ -1,24 +1,21 @@
-# Compiled class file
-*.class
+import java.util.*;
 
-# Log file
-*.log
+//**
+*
+* @author Leonardo Rocha
+*/
+public class numeroPar
+  public static void main(String[] args){
+    Scanner valor = new Scanner(System.in);
+    System.out.println("Informe o número inteiro: ");
+    int numero = valor.nextInt();
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+    if(numero % 2 == 0){
+      System.out.println("O número digitado é par");
+      }
+    else{
+      System.out.println("O número digitado é par");
+    }
+    System.exit(0);
+  }
+}
